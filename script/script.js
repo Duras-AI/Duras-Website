@@ -138,7 +138,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     submitBtn.disabled = true;
     
     // Send to Django API
-    fetch('https://duras-admin-panel.onrender.com/contact/api/submit/', {
+    fetch('https://duras-admin.mooo.com/contact/api/submit/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -241,3 +241,4 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+
